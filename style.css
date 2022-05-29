@@ -1,0 +1,83 @@
+body
+{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#wybor
+{
+    background-color: brown;
+    width: 100%;
+    color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+#wybor button
+{
+    background-color: antiquewhite;
+    color: brown;
+    border: none;
+    height: 60px;
+    width: fit-content;
+    margin: 10px;
+}
+#wybor button:hover
+{
+    background-color: bisque;
+}
+#obraz_grupa
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: antiquewhite;
+}
+#obraz
+{
+    align-self: center;
+    text-align: center;
+    height: 700px;
+}
+#obraz_grupa h3
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+#obraz_grupa button
+{
+    background-color: brown;
+    color: antiquewhite;
+    border: none;
+    margin: 10px;
+}
+#obraz_nawigacja
+{
+    align-self: center;
+    display: none;
+}
+#obraz_nazwa
+{
+    align-self: center;
+}
+footer
+{
+    background-color: brown;
+    color: antiquewhite;
+}
